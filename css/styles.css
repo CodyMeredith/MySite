@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 7rem;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  }
+
+hr {
+  border: dotted #d4d7dd 6px;
+  border-bottom: none;
+  width: 3%;
+  margin: 150px auto;
+  }
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #EAF6F6
+}
+
+p {
+  line-height: 2;
+}
+
+.attribution {
+  font-size: .5rem;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 450px;
+  bottom: 300px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.footer-link {
+  padding: 1rem;
+  color: #11999ES;
+}
+
+.copyright-text {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.hockey-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.music-img {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.profile-description {
+  width: 25%;
+  margin: auto;
+}
+
+.profile-pic {
+  border-radius: 100%;
+  width: 10%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.subtitle {font-weight: normal;}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.top-container {
+  background-color: #dff6f0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.myButton {
+	box-shadow: 0 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #11999e 5%, #408c99 100%);
+	background-color:#11999e;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat';
+	font-size:20px;
+	font-weight:bold;
+  margin: 30px auto;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #11999e 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
